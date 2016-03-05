@@ -1,0 +1,167 @@
+body{
+    overflow: hidden;
+    margin:0;
+    background-color: black;
+}
+.container {
+    width:80%;
+    height: 3.2em;
+    margin:0 auto;
+    background-color: black;
+}
+.container #left {
+    float: left;
+}
+.container #right {
+    float: right;
+}
+
+.container #right li a:hover,
+.container #right li a:focus {
+    color: black;
+    background-color: whitesmoke;
+    opacity: 50;
+}
+
+.container #left li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 1.0em;
+}
+.container #left li a {
+    text-decoration:none;
+    color: white;
+    border-radius: 0.4em;
+    padding:0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border: 1px solid whitesmoke;
+}
+.container #left li a:hover,
+.container #left li a:focus {
+    color: black;
+    background-color: whitesmoke;
+    opacity: 50;
+}
+
+.container #right li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 1.0em;
+}
+.container #right li a {
+    text-decoration:none;
+    border-radius: 0.4em;
+    padding:0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: white;
+    border: 1px solid whitesmoke;
+}
+.main_body {
+    width: 100%;
+    height: 40em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    text-align: center;
+    padding-top: 2em;
+    background-image: url("images/bgjumbo2.jpg");
+}
+.main_body h1 {
+    color: whitesmoke;
+    margin: 0;
+    padding-top: 3em;
+}
+.main_body p {
+    padding-top: 7.5em;
+    font-weight: bold;
+}
+.main_body .button {
+    text-decoration: none;
+    border-radius: 0.4em;
+    padding:0.5em;
+    padding-left: 3.50em;
+    padding-right: 3.50em;
+    font-weight: bold;
+    border: 1px solid whitesmoke;
+
+}
+.main_body a:hover,
+.main_body a:focus {
+    color: black;
+    background-color: whitesmoke;
+    opacity: 50;
+}
+
+.more {
+    background-color: black;
+    height: 12.5em;
+    padding-top: 1%;
+
+}
+.vak {
+    border: 1px solid white;
+    display: inline-table;
+    width: 30em;
+    height: 8em;
+    background-color: black;
+    margin-right: 3em;
+    margin-left: 2.5em;
+    padding: 1.1em;
+    border-radius: 2em;
+    margin-bottom: 2.1em;
+    position: inherit;
+}
+
+.vak span {
+    color:black;
+}
+
+.vak a:hover,
+.vak a:focus{
+    color: black;
+    background-color: whitesmoke;
+}
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin: auto;
+    height: 2.5%;
+    text-align: right;
+    background: black none repeat scroll 0% 0%;
+    border-top: 1px solid #000;
+    overflow: hidden;
+}
+.main_body table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.main_body table td {
+    text-align: center;
+    border: 1px white solid;
+    clear: both;
+    align-self: center;
+    table-layout: fixed;
+}
+#dik {
+    font-weight: bold;
+}
+
+#ktb {
+    text-align: center;
+    font-size: 10px
+}
+#ktb2 {
+    text-align: center;
+    font-size: 20px;
+}
+#ktb2 td {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+#ktb td{
+    border: 1px solid whitesmoke;
+}

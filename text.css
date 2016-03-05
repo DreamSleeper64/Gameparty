@@ -1,0 +1,33 @@
+body * {
+    font-family: monospace, monospace;
+    color: whitesmoke;
+}
+a {
+    text-decoration: none;
+}
+
+.button {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+span * {
+    color: red;
+}
+
+h1 {
+    margin:0;
+}
+
+h3 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+
+.vak p {
+    font-size: 10px;
+}
+
+
